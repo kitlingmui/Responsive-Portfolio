@@ -1,0 +1,152 @@
+      
+   
+   header{
+            font-family: "Times New Roman";
+            text-align: right
+    }
+    
+    .containertop{
+        background-color: white;
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    #left{
+            padding: 25px;
+            width:280px;
+            height:20px;
+            margin-top: 100px;
+            margin-left: 500px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            line-height: 30px; 
+            background-color: darkcyan;   
+            display: inline;          
+    }
+
+   
+    #right{      
+        font-size: 20px;
+        color: dimgrey;
+        vertical-align: center;  
+        display: inline;
+    }
+
+    .r{
+        margin-right: 400px;
+        text-align: right;
+        vertical-align: center;
+        height:30px;
+        line-height: 30px; 
+    }
+
+
+    .l{
+        background:lightgray;
+        height: 3px;
+      }
+           
+    .contentbox{
+        margin-top: 20px;
+        margin-left: 500px;
+        margin-right: 100px;
+        width: 1000px;
+        height: 700px;
+        background-color: white;
+    } 
+    
+    #content{
+        padding: 30px;
+    }
+
+    img {           
+      width: 260px;
+      height: 300px;
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    #m{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+    }
+
+    pic{
+        display: "inline";
+        float: left;     
+    }
+
+    h2{
+        margin-top: -10px;
+        font-size: 30px;
+        color: darkcyan;
+        font-family: "Times New Roman";
+    }
+     
+    a, p {
+      text-align: left;
+      font-size: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: gray;
+      margin-inline-start: 20px;
+      line-height: 120%;
+    }
+ 
+    .bottom{  
+        margin-top: 20px;
+        background-color: gray;
+        height: 50px;
+        line-height: 50px;
+        grid-column-start: 1;
+        grid-column-end: 6; 
+        text-align: center;
+        vertical-align: center;
+        font-size: 20px;
+        color:whitesmoke;
+        clear: both;
+        position: relative;
+        z-index: 10;
+    }
+
+
+    #contactform {
+        width: 600px;
+        margin-top: 25px;
+    }
+
+    input[type=text] {
+        width: 150%;
+        padding: 12px 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .resizedTextbox {
+        width:  100px; 
+        height: 300px;
+    }
+
+    .submit-button{
+        width: 100px;
+        height: 40px;
+        color:white;
+        background-color: darkcyan;
+        
+    }
+
+    
+    ul {
+        white-space: nowrap;
+    }
+      
+    ul, li {
+        list-style-type: none;
+        display: inline-block;
+    }
